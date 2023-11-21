@@ -1,4 +1,4 @@
-package com.example.board;
+package com.example.board.util;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -15,11 +15,11 @@ public class JDBCUtil {
         return con;
     }
 
-	public static void main(String ars[]) {
+	/*public static void main(String ars[]) {
 		Connection conn = getConnection();
 		if(conn != null)
 			System.out.println("DB 연결됨!");
 		else
 			System.out.println("DB 연결중 오류 !");
-	}
+	}*/
 }
